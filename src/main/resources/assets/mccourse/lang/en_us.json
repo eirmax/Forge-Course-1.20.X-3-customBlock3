@@ -1,7 +1,10 @@
 {
   "item.mccourse.alexandrite": "Alexandrite",
   "item.mccourse.raw_alexandrite": "Raw Alexandrite",
+  "item.mccorse.bronze_ingot": "Bronze ingot",
 
   "block.mccourse.alexandrite_block": "Block of Alexandrite",
-  "block.mccourse.raw_alexandrite_block": "Block of Raw Alexandrite"
-}           
+  "block.mccourse.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.mccourse.bronze_block": "Block of Bronze"
+
+}
