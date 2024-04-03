@@ -44,9 +44,19 @@ public class MCCourseMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAW_BRONZE_INGOT);
             event.accept(ModItems.BRONZE_INGOT);
+
+        }
+
+
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.BRONZE_SWORD);
+
+
+
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.BRONZE_HOE);
             event.accept(ModItems.BRONZE_PICKAXE);
-            event.accept(ModItems.BRONZE_SWORD);
             event.accept(ModItems.BRONZE_SHOVEL);
             event.accept(ModItems.BRONZE_AXE);
 
