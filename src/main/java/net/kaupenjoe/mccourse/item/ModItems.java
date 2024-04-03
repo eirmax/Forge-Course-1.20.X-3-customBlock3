@@ -12,9 +12,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MCCourseMod.MOD_ID);
 
-    public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
+    public static final RegistryObject<Item> RAW_BRONZE_INGOT= ITEMS.register("raw_bronze_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword",
             () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
