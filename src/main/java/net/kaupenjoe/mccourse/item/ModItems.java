@@ -1,6 +1,6 @@
 package net.kaupenjoe.mccourse.item;
 
-import net.kaupenjoe.mccourse.MCCourseMod;
+import net.kaupenjoe.mccourse.BetterUpdates;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, MCCourseMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, BetterUpdates.MOD_ID);
 
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties()));

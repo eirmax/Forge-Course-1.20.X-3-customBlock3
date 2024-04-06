@@ -1,6 +1,6 @@
 package net.kaupenjoe.mccourse.util;
 
-import net.kaupenjoe.mccourse.MCCourseMod;
+import net.kaupenjoe.mccourse.BetterUpdates;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
@@ -16,13 +16,13 @@ public class ModTags {
 
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(MCCourseMod.MOD_ID, name));
+            return BlockTags.create(new ResourceLocation(BetterUpdates.MOD_ID, name));
 
         }
 
         public static class Items {
             public static TagKey<Item> tag(String name) {
-                return ItemTags.create(new ResourceLocation(MCCourseMod.MOD_ID, name));
+                return ItemTags.create(new ResourceLocation(BetterUpdates.MOD_ID, name));
             }
         }
     }

@@ -6,7 +6,7 @@
       "tag": "forge:rods/wooden"
     },
     "X": {
-      "tag": "mccourse:bronze_ingot"
+      "tag": "betterupdates:bronze_ingot"
     }
   },
   "pattern": [
@@ -15,7 +15,7 @@
     " # "
   ],
   "result": {
-    "item": "mccourse:bronze_shovel"
+    "item": "betterupdates:bronze_shovel"
   },
   "show_notification": true
 }

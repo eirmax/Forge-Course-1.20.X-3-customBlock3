@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "mccourse:block/bronze_block"
+      "model": "betterupdates:block/bronze_block"
     }
   }
 }

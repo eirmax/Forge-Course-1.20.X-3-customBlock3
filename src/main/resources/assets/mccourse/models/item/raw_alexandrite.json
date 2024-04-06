@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mccourse:item/raw_alexandrite"
+    "layer0": "betterupdates:item/raw_alexandrite"
   }
 }

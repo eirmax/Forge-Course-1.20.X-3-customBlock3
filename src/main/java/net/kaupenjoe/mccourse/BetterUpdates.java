@@ -17,12 +17,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(MCCourseMod.MOD_ID)
-public class MCCourseMod {
-    public static final String MOD_ID = "mccourse";
+@Mod(BetterUpdates.MOD_ID)
+public class BetterUpdates {
+    public static final String MOD_ID = "betterupdates";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public MCCourseMod() {
+    public BetterUpdates() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 

@@ -1,6 +1,6 @@
 package net.kaupenjoe.mccourse.block;
 
-import net.kaupenjoe.mccourse.MCCourseMod;
+import net.kaupenjoe.mccourse.BetterUpdates;
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -20,7 +20,7 @@ public class ModBlocks {
 
 
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, MCCourseMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, BetterUpdates.MOD_ID);
     public static final RegistryObject<Block> ALEXANDRITE_BLOCK = registerBlock("alexandrite_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));

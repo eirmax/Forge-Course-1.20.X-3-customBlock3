@@ -3,11 +3,11 @@
   "category": "mics",
   "ingredients": [
     {
-      "item": "mccourse:alexandrite_block"
+      "item": "betterupdates:alexandrite_block"
     }
   ],
   "result": {
-    "item": "mccourse:alexandrite",
+    "item": "betterupdates:alexandrite",
     "count": 9
   }
 }

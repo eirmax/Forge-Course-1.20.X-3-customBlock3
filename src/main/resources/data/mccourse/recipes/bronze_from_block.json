@@ -3,11 +3,11 @@
   "category": "mics",
   "ingredients": [
     {
-      "item": "mccourse:bronze_block"
+      "item": "betterupdates:bronze_block"
     }
   ],
   "result": {
-    "item": "mccourse:bronze_ingot",
+    "item": "betterupdates:bronze_ingot",
     "count": 9
   }
 }
