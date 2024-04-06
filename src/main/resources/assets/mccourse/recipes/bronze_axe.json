@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "X": {
+      "tag": "mccourse:bronze_ingot"
+    }
+  },
+  "pattern": [
+    "XX",
+    "X# ",
+    " # "
+  ],
+  "result": {
+    "item": "mccourse:bronze_axe"
+  },
+  "show_notification": true
+}
