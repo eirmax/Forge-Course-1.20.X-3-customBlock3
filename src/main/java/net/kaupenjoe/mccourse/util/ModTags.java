@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 public class ModTags {
     public static class Blocks {
         public static final TagKey NEEDS_BRONZE_TOOL = tag("bronze");
+        public static final TagKey NEEDS_EMERALD_TOOL= tag("emerald");
 
 
 

@@ -13,8 +13,6 @@ public class ModItems {
 
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_BRONZE_INGOT= ITEMS.register("raw_bronze_ingot",
-            () -> new Item(new Item.Properties()));
 
     // tools register
     public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword",
@@ -27,6 +25,11 @@ public class ModItems {
             () -> new HoeItem(ModToolTags.BRONZE, 1,1, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_AXE = ITEMS.register("bronze_axe",
             () -> new AxeItem(ModToolTags.BRONZE, 2, 2, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword",
+            () -> new SwordItem(ModToolTags.EMERALD, 9, 1.2f, new Item.Properties()));
+
+
 
 
 
