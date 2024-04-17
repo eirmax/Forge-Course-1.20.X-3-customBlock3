@@ -14,13 +14,14 @@ import java.util.List;
 
 public class ModToolTags {
     public static final Tier BRONZE = TierSortingRegistry.registerTier(
-             new ForgeTier(1,308,3.0f,1.5f,12,
+             new ForgeTier(1,308,0.5f,1.5f,12,
                      ModTags.Blocks.NEEDS_BRONZE_TOOL, () -> Ingredient.of(ModItems.BRONZE_INGOT.get())),
             new ResourceLocation(BetterUpdates.MOD_ID,"bronze"), List.of(Tiers.STONE), List.of());
-    public static final Tier EMERALD = TierSortingRegistry.registerTier(
-            new ForgeTier(1,850,5.0f,1.5f,18,
-                    ModTags.Blocks.NEEDS_EMERALD_TOOL, () -> Ingredient.of(Items.EMERALD)),
-            new ResourceLocation(BetterUpdates.MOD_ID,"emerald"), List.of(Tiers.DIAMOND), List.of());
+
+    public static final Tier IMPROVE_EMERALD = TierSortingRegistry.registerTier(
+            new ForgeTier(1,2570,0.5f,1.5f,18,
+                    ModTags.Blocks.NEEDS_EMERALD_TOOL, () -> Ingredient.of(ModItems.IMPROVE_EMERALD.get())),
+            new ResourceLocation(BetterUpdates.MOD_ID,"improve_emerald"), List.of(Tiers.STONE), List.of());
 
 
 

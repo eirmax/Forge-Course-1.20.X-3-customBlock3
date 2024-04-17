@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mccourse:item/emerald_sword"
+    "layer0": "betterupdates:item/bronze_sword"
   }
 }

@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    "XX ",
-    " # ",
-    " # "
+    "X",
+    "X",
+    "#"
   ],
   "result": {
-    "item": "betterupdates:bronze_hoe"
+    "item": "betterupdates:item/bronze_sword"
   },
   "show_notification": true
 }

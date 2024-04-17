@@ -43,12 +43,14 @@ public class BetterUpdates {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BRONZE_INGOT);
+            event.accept(ModItems.IMPROVE_EMERALD);
 
         }
 
 
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.BRONZE_SWORD);
+            event.accept(ModItems.EMERALD_SWORD);
 
 
 
@@ -58,6 +60,11 @@ public class BetterUpdates {
             event.accept(ModItems.BRONZE_PICKAXE);
             event.accept(ModItems.BRONZE_SHOVEL);
             event.accept(ModItems.BRONZE_AXE);
+            event.accept(ModItems.EMERALD_AXE);
+            event.accept(ModItems.EMERALD_PICKAXE);
+            event.accept(ModItems.EMERALD_HOE);
+            event.accept(ModItems.EMERALD_SHOVEL);
+
 
         }
 
