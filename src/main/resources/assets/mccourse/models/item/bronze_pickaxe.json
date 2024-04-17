@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "betterupdates:item/bronze_pickaxe"
+    "layer0": "mccourse:item/bronze_pickaxe"
   }
 }
