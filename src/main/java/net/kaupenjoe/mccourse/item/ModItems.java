@@ -7,6 +7,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Properties;
+
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BetterUpdates.MOD_ID);
@@ -20,11 +22,11 @@ public class ModItems {
 
     // tools register
     public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword",
-            () -> new SwordItem(ModToolTags.BRONZE, 4, 2, new Item.Properties()));
+            () -> new SwordItem(ModToolTags.BRONZE, 4, 0.7f, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe",
-            () -> new PickaxeItem(ModToolTags.BRONZE, 1, 1, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTags.BRONZE, 1, 0.5f, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_SHOVEL = ITEMS.register("bronze_shovel",
-            () -> new ShovelItem(ModToolTags.BRONZE, 1,1, new Item.Properties()));
+            () -> new ShovelItem(ModToolTags.BRONZE, 3,0.4f, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_HOE = ITEMS.register("bronze_hoe",
             () -> new HoeItem(ModToolTags.BRONZE, 1,1, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_AXE = ITEMS.register("bronze_axe",
