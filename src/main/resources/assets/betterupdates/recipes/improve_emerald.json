@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "tag": "minecraft:diamond"
+    },
+    "pattern": [
+      " X ",
+      "XXX",
+      " X "
+    ],
+    "result": {
+      "item": "betterupdates:improved_emerald"
+    },
+    "show_notification": true
+  }
+}

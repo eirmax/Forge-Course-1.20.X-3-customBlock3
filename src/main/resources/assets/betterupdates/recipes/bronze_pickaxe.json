@@ -6,7 +6,7 @@
       "tag": "forge:rods/wooden"
     },
     "X": {
-      "tag": "betterupdates:item/bronze_ingot"
+      "tag": "betterupdates:bronze_ingot"
     }
   },
   "pattern": [
@@ -15,7 +15,7 @@
     " # "
   ],
   "result": {
-    "item": "betterupdates:item/bronze_pickaxe"
+    "item": "betterupdates:bronze_pickaxe"
   },
   "show_notification": true
 }

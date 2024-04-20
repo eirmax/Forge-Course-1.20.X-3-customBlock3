@@ -6,7 +6,7 @@
       "tag": "forge:rods/wooden"
     },
     "X": {
-      "tag": "forge:item/emerald"
+      "tag": "minecraft:emerald"
     }
   },
   "pattern": [
@@ -15,7 +15,7 @@
     "#"
   ],
   "result": {
-    "item": "betterupdates:item/emerald_sword"
+    "item": "betterupdates:emerald_sword"
   },
   "show_notification": true
 }
