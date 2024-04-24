@@ -3,19 +3,19 @@
   "category": "equipment",
   "key": {
     "#": {
-      "tag": "forge:rods/wooden"
+      "tag": "minecraft:stick"
     },
     "X": {
       "tag": "minecraft:emerald"
     }
   },
   "pattern": [
-    " X ",
+    "XXX",
     " # ",
     " # "
   ],
   "result": {
-    "item": "betterupdates:emerald_shovel"
+    "item": "betterupdates:emerald_pickaxe"
   },
   "show_notification": true
 }

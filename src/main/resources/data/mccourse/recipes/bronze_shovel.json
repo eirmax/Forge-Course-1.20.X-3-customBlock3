@@ -6,16 +6,16 @@
       "tag": "forge:rods/wooden"
     },
     "X": {
-      "tag": "minecraft:emerald"
+      "tag": "betterupdates:bronze_ingot"
     }
   },
   "pattern": [
-    "XX ",
-    "X# ",
-    " # "
+    "X",
+    "#",
+    "#"
   ],
   "result": {
-    "item": "betterupdates:emerald_axe"
+    "item": "betterupdates:bronze_shovel"
   },
   "show_notification": true
 }
