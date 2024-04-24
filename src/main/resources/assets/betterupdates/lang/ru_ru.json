@@ -1,5 +1,5 @@
 {
-  "item.mccorse.bronze_ingot": "Слиток бронзы",
+  "item.betterupdates.bronze_ingot": "Слиток бронзы",
   "item.betterupdates.bronze_sword": "Бронзовый меч",
   "item.betterupdates.bronze_shovel": "Бронзовая лопата",
   "item.betterupdates.bronze_pickaxe": "Бронзовая кирка",
@@ -16,7 +16,9 @@
 
 
 
-  "block.betterupdates.bronze_block": "Бронзовый блок"
+  "block.betterupdates.bronze_block": "Бронзовый блок",
+  "item.betterupdates.bronze_ingot": "Слиток бронзы",
+  "item.betterupdates.improve_emerald": "Улучшенный изумруд"
 
 
 

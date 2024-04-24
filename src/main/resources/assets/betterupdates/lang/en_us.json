@@ -1,5 +1,5 @@
 {
-  "item.mccorse.bronze_ingot": "Bronze ingot",
+  "item.betterupdates.bronze_ingot": "Bronze ingot",
   "item.betterupdates.bronze_sword": "Bronze sword",
   "item.betterupdates.bronze_shovel": "Bronze shovel",
   "item.betterupdates.bronze_pickaxe": "Bronze pickaxe",
@@ -11,6 +11,10 @@
   "item.betterupdates.emerald_pickaxe": "Emerald pickaxe",
   "item.betterupdates.emerald_hoe": "Emerald hoe",
   "item.betterupdates.emerald_axe": "Emerald axe",
+
+
+  "item.betterupdates.improve_emerald": "Improve emerald",
+
 
 
   "block.betterupdates.bronze_block": "Block of Bronze"
