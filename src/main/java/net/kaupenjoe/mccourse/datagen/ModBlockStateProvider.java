@@ -20,7 +20,6 @@ import net.minecraftforge.registries.RegistryObject;
         @Override
         protected void registerStatesAndModels() {
             blockWithItem(ModBlocks.ALEXANDRITE_BLOCK);
-            blockWithItem(ModBlocks.RAW_ALEXANDRITE_BLOCK);
 
             blockWithItem(ModBlocks.ALEXANDRITE_ORE);
             blockWithItem(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE);
