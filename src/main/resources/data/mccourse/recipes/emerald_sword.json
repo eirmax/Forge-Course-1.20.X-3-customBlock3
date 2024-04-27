@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": {
-      "tag": "forge:rods/wooden"
+      "tag": "minecraft:stick"
     },
     "X": {
       "tag": "minecraft:emerald"

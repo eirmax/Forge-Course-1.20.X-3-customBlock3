@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    "XX ",
-    "X# ",
-    " # "
+    "X",
+    "#",
+    "#"
   ],
   "result": {
-    "item": "betterupdates:emerald_hoe"
+    "item": "betterupdates:emerald_shovel"
   },
   "show_notification": true
 }

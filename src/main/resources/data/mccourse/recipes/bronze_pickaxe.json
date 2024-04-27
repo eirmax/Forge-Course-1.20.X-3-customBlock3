@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "mics",
   "key": {
     "#": {
       "tag": "forge:rods/wooden"
@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    "XX ",
+    "XXX",
     " # ",
     " # "
   ],
   "result": {
-    "item": "betterupdates:bronze_hoe"
+    "item": "betterupdates:bronze_pickaxe"
   },
   "show_notification": true
 }

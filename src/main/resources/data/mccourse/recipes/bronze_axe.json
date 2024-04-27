@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": {
-      "tag": "forge:rods/wooden"
+      "tag": "minecraft:stick"
     },
     "X": {
       "tag": "betterupdates:bronze_ingot"
@@ -11,8 +11,8 @@
   },
   "pattern": [
     "XX",
-    "X# ",
-    " # "
+    "X#",
+    " #"
   ],
   "result": {
     "item": "betterupdates:bronze_axe"

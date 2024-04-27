@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "mics",
   "key": {
     "#": {
-      "tag": "forge:rods/wooden"
+      "tag": "minecraft:stick"
     },
     "X": {
       "tag": "betterupdates:bronze_ingot"
     }
   },
   "pattern": [
-    "XXX",
-    " # ",
-    " # "
+    "X",
+    "X",
+    "#"
   ],
   "result": {
-    "item": "betterupdates:bronze_pickaxe"
+    "item": "betterupdates:bronze_sword"
   },
   "show_notification": true
 }
