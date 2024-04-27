@@ -34,6 +34,14 @@ import net.minecraftforge.registries.RegistryObject;
             handheldItem(ModItems.BRONZE_SHOVEL);
             handheldItem(ModItems.BRONZE_PICKAXE);
 
+
+
+
+
+
+            evenSimplerBlockItem(ModBlocks.BRONZE_SLAB);
+            evenSimplerBlockItem(ModBlocks.BRONZE_STAIRS);
+
         }
 
         public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
@@ -68,5 +76,20 @@ import net.minecraftforge.registries.RegistryObject;
             return withExistingParent(item.getId().getPath(),
                     new ResourceLocation("item/generated")).texture("layer0",
                     new ResourceLocation(BetterUpdates.MOD_ID,"item/" + item.getId().getPath()));
+
+
+
+
         }
+
+        public void evenSimplerBlockItem(RegistryObject<Block> block) {
+            this.withExistingParent(BetterUpdates.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+                    modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
+        }
+
     }
+
+
+
+
+

@@ -67,10 +67,13 @@ public class BetterUpdates {
             event.accept(ModItems.EMERALD_SHOVEL);
 
 
+
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BRONZE_BLOCK);
+            event.accept(ModBlocks.BRONZE_SLAB);
+            event.accept(ModBlocks.BRONZE_STAIRS);
 
         }
     }
