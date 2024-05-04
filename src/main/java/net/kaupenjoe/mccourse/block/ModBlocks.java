@@ -4,6 +4,7 @@ import net.kaupenjoe.mccourse.BetterUpdates;
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -25,11 +26,33 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
 
+
+    public static final RegistryObject<Block> IMPROVE_EMERALD_BLOCK = registerBlock("improve_emerald_block",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
     public static final RegistryObject<Block> BRONZE_STAIRS = registerBlock("bronze_stairs",
             () -> new StairBlock(() -> ModBlocks.BRONZE_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHER_BRICKS)));
     public static final RegistryObject<Block> BRONZE_SLAB = registerBlock("bronze_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHER_BRICKS)));
+
+
+    public static final RegistryObject<Block> EMERALD_SLAB = registerBlock("emerald_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHER_BRICKS)));
+
+
+    public static final RegistryObject<Block> EMERALD_STAIRS = registerBlock("emerald_stairs",
+            () -> new StairBlock(() -> ModBlocks.IMPROVE_EMERALD_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERRACK)));
+
+
+
+
+
+
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

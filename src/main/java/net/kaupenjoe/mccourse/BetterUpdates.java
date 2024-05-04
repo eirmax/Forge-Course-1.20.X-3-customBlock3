@@ -74,6 +74,12 @@ public class BetterUpdates {
             event.accept(ModBlocks.BRONZE_BLOCK);
             event.accept(ModBlocks.BRONZE_SLAB);
             event.accept(ModBlocks.BRONZE_STAIRS);
+            event.accept(ModBlocks.EMERALD_SLAB);
+            event.accept(ModBlocks.EMERALD_STAIRS);
+
+
+
+
 
         }
     }

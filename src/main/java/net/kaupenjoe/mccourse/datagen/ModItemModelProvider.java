@@ -41,6 +41,8 @@ import net.minecraftforge.registries.RegistryObject;
 
             evenSimplerBlockItem(ModBlocks.BRONZE_SLAB);
             evenSimplerBlockItem(ModBlocks.BRONZE_STAIRS);
+            evenSimplerBlockItem(ModBlocks.EMERALD_SLAB);
+            evenSimplerBlockItem(ModBlocks.EMERALD_STAIRS);
 
         }
 
@@ -69,7 +71,7 @@ import net.minecraftforge.registries.RegistryObject;
         private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
             return withExistingParent(item.getId().getPath(),
                     new ResourceLocation("item/generated")).texture("layer0",
-                    new ResourceLocation(BetterUpdates.MOD_ID,"item/" + item.getId().getPath()));
+                    new ResourceLocation(BetterUpdates.MOD_ID,"````item/" + item.getId().getPath()));
         }
 
         private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

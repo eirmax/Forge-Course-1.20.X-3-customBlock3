@@ -22,26 +22,26 @@ public class ModItems {
 
     // tools register
     public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword",
-            () -> new SwordItem(ModToolTags.BRONZE, 4, 1.6f, new Item.Properties()));
+            () -> new SwordItem(ModToolTags.BRONZE, 4, 1, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe",
-            () -> new PickaxeItem(ModToolTags.BRONZE, 3, 1.4f, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTags.BRONZE, 3, 1, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_SHOVEL = ITEMS.register("bronze_shovel",
             () -> new ShovelItem(ModToolTags.BRONZE, 1,2, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_HOE = ITEMS.register("bronze_hoe",
             () -> new HoeItem(ModToolTags.BRONZE, 1,1, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_AXE = ITEMS.register("bronze_axe",
-            () -> new AxeItem(ModToolTags.BRONZE, 8, 0.8f, new Item.Properties()));
+            () -> new AxeItem(ModToolTags.BRONZE, 8, 1, new Item.Properties()));
 
     public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword",
-            () -> new SwordItem(ModToolTags.IMPROVE_EMERALD, 7, 0.1f, new Item.Properties()));
+            () -> new SwordItem(ModToolTags.IMPROVE_EMERALD, 7, 1, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
-            () -> new PickaxeItem(ModToolTags.IMPROVE_EMERALD, 3, 0.1f, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTags.IMPROVE_EMERALD, 3, 0.3f, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
-            () -> new AxeItem(ModToolTags.IMPROVE_EMERALD, 8, 0.1f, new Item.Properties()));
+            () -> new AxeItem(ModToolTags.IMPROVE_EMERALD, 8, 0.3f, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
-            () -> new ShovelItem(ModToolTags.IMPROVE_EMERALD, 2, 1, new Item.Properties()));
+            () -> new ShovelItem(ModToolTags.IMPROVE_EMERALD, 2, 2, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_HOE= ITEMS.register("emerald_hoe",
-            () -> new SwordItem(ModToolTags.IMPROVE_EMERALD, 0, 1, new Item.Properties()));
+            () -> new SwordItem(ModToolTags.IMPROVE_EMERALD, 0, 2, new Item.Properties()));
 
 
 

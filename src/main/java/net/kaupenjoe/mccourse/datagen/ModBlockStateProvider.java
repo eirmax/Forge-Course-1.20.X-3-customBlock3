@@ -3,7 +3,9 @@ package net.kaupenjoe.mccourse.datagen;
 import net.kaupenjoe.mccourse.BetterUpdates;
 import net.kaupenjoe.mccourse.block.ModBlocks;
 import net.minecraft.data.PackOutput;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -26,6 +28,12 @@ import net.minecraftforge.registries.RegistryObject;
 
             blockItem(ModBlocks.BRONZE_STAIRS);
             blockItem(ModBlocks.BRONZE_SLAB);
+            blockItem(ModBlocks.EMERALD_SLAB);
+            blockItem(ModBlocks.EMERALD_STAIRS);
+            stairsBlock((StairBlock) ModBlocks.EMERALD_STAIRS.get(), blockTexture(ModBlocks.IMPROVE_EMERALD_BLOCK.get()));
+            slabBlock(((SlabBlock) ModBlocks.EMERALD_SLAB.get()), blockTexture(ModBlocks.IMPROVE_EMERALD_BLOCK.get()), blockTexture(ModBlocks.IMPROVE_EMERALD_BLOCK.get()));
+
+
 
         }
 

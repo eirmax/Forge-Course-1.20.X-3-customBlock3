@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "betterupdates:item/improved_emerald"
+    "layer0": "betterupdates:item/improve_emerald"
 
   }
 }
